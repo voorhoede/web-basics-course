@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  padding: 16px;
+  gap: 16px;
+  background-color: #2a2a2a;
+  color: #fefefe;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 32px;
+  background-color: #101014;
+}
+
+main {
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 48px;
+    gap: 40px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  gap: 16px;
+}
+
+h1 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(0.25turn, #007cf0, #ff0080);
+  -webkit-background-clip: text;
+}

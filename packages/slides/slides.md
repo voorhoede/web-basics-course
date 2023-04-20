@@ -32,12 +32,17 @@ The Web, HTML, CSS & JS
 
 # Today / Exercises
 
-1. **HTML structure**: Set up a HTML document.
-1. **Layout**: Style layout using CSS.
-1. **Styling**: Style components on the page using CSS.
-1. **Map**: Initialize map using mapbox.
-1. **Map**: Current location button.
-1. **Fetching data**: Fetch data by clicking on the map.
+1. **HTML: My first web page:**: Set up an HTML document.
+1. **HTML: Markup**: Fixing the markup of an HTML form.
+1. **HTML: HTML for weather app:**: Set up the initial HTML for weather app.
+1. **CSS: Layout:**: Add layout styles to the weather app.
+1. **CSS: Typography:**: Add typograhpy styles to the weather app.
+1. **CSS: List**: Add styles to the weather list.
+1. **JS: Basics**: Manipulating data.
+1. **JS: DOM**: Interacting with the DOM.
+1. **JS: Map**: Render map using MapBox.
+1. **JS: Browser APIs**: Get current location using browser features.
+1. **JS: Interactivity**: Add interactivity to the map. 
 
 ---
 layout: center

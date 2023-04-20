@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>WeatherMap</title>
+
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WeatherMap</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Forecast</h2>
+        <p>Here is the forecast for the next 7 days.</p>
+
+        <ul class="forecast-list">
+          <li class="forecast-item">
+            <h3 class="forecast-title">Monday</h3>
+            <div class="forecast-emoji">☀️</div>
+            <p class="forecast-text">High: 20°C</p>
+            <p class="forecast-text">Low: 10°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Tuesday</h3>
+            <div class="forecast-emoji">🌤️</div>
+            <p class="forecast-text">High: 15°C</p>
+            <p class="forecast-text">Low: 5°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Wednesday</h3>
+            <div class="forecast-emoji">🌧️</div>
+            <p class="forecast-text">High: 10°C</p>
+            <p class="forecast-text">Low: 5°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Thursday</h3>
+            <div class="forecast-emoji">🌧️</div>
+            <p class="forecast-text">High: 10°C</p>
+            <p class="forecast-text">Low: 5°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Friday</h3>
+            <div class="forecast-emoji">️🌦️</div>
+            <p class="forecast-text">High: 15°C</p>
+            <p class="forecast-text">Low: 10°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Saturday</h3>
+            <div class="forecast-emoji">️🌦️</div>
+            <p class="forecast-text">High: 15°C</p>
+            <p class="forecast-text">Low: 10°C</p>
+          </li>
+          <li class="forecast-item">
+            <h3 class="forecast-title">Sunday</h3>
+            <div class="forecast-emoji">☀️</div>
+            <p class="forecast-text">High: 20°C</p>
+            <p class="forecast-text">Low: 10°C</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Current weather</h2>
+        <p>
+          Click on the map to display the current weather for a specific
+          location.
+        </p>
+
+        <div id="map"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Made by the people following the front-end course at
+        <a href="">https://www.deltares.nl</a>
+      </p>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./readme.md",
+  "scripts": {
+    "format": "prettier --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.8.7"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "prettier-plugin-css-order": "^1.3.0"
+  }
+}
