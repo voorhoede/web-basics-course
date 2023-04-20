@@ -50,7 +50,7 @@ layout: center
 
 # Today / Goal
 
-## Create your own web viewer, which renders a map with a WFS layer
+## WeatherMap: an application that shows the weather for your current location and an interactive map.
 
 ---
 layout: center
@@ -59,6 +59,16 @@ layout: center
 # Question
 
 ## Who is familiar with using HTML/CSS/JS?
+
+---
+
+# Before we start / prerequisites
+
+- [Node.js](https://nodejs.org/en/) version 16 or higher
+- [Browser](https://www.google.com/chrome/) or any other browser that has developer tools
+- [VSCode](https://code.visualstudio.com/) or another text editor suitable for web development
+  - Alternatively, you can use [Github Codespaces](https://github.com/features/codespaces) or [Codesandbox](https://codesandbox.io/)
+
 
 ---
 src: ./sections/how-the-web-works.md

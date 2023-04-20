@@ -125,7 +125,6 @@ greet({ name: 'John', age: 30 });
 
 ---
 
-
 # Javascript Basics / Arrays
 
 - Special variable, that can hold more than one value at a time
@@ -209,10 +208,10 @@ names.forEach(name => console.log(name));
 ```
 
 ---
+layout: center
+---
 
-# Javascript Basics / DOM manipulation
-
-<CodepenEmbed slug-hash="xxyZrxb" user="sjoerdb" height="400" />
+# 🏋️ Exercise 7 🏋️
 
 ---
 
@@ -232,6 +231,42 @@ button.addEventListener('click', () => {
   console.log('Button clicked');
 });
 ```
+
+---
+
+# Javascript Basics / DOM manipulation
+
+<CodepenEmbed slug-hash="xxyZrxb" user="sjoerdb" height="400" />
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 8 🏋️
+
+---
+
+# Javascript Basics / Inline vs external scripts
+
+- Inline scripts are placed in the HTML file
+- External scripts are placed in a separate file
+
+```html
+<script>
+  console.log('Hello world');
+</script>
+```
+
+```html
+<script src="/script.js"></script>
+```
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 9 🏋️
+
 ---
 
 # Javascript Basics / Async
@@ -261,6 +296,18 @@ const response = await fetch('https://jsonplaceholder.typicode.com/users');
   .then(users => console.log(users))
   .catch(error => console.error(error));
 ```
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 10 🏋️
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 11 🏋️
 
 ---
 

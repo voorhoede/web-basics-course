@@ -69,7 +69,120 @@ body {
 
 <img src="/images/cascade.png" width="200" />
 
+---
+
+# CSS Basics / Specificity
+
+- Order: inline > id > class > tag
+
+```html
+<body>
+    <h1 class="heading">Heading 1</h1>
+</body>
+```
+
+```css {all|1-3|5-8}
+h1 {
+    color: red;
+}
+
+.heading {
+    color: blue;
+}
+```
+
 --- 
+
+# CSS Basics / Inline vs. External
+
+```html
+<html>
+    <head>
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+    </body>
+</html>
+```
+
+```html
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+    </body>
+</html>
+```
+
+---
+
+# CSS Basics / Layout
+
+- `display: grid`: for creating a grid layout
+- `display: flex`: for creating a flex layout
+- `grid` for layout, `flex` for components
+
+<div class="grid grid-cols-2 gap-4">
+    <img src="/images/grid-vs-flexbox.png" />
+    <img src="/images/grid-vs-flexbox-1.png" />
+</div>
+
+source: https://ishadeed.com/article/grid-layout-flexbox-components/
+
+---
+
+# CSS Basics / Box model
+
+<CodepenEmbed slug-hash="LYJvdbZ" user="sjoerdb" height="400" />
+
+---
+
+# CSS Basics / Media queries
+
+<div class="grid grid-cols-2 gap-4">
+
+```css
+.selector {
+    color: blue;
+}
+
+@media (max-width: 800px) {
+    .selector {
+        color: green;
+    }
+}
+
+@media (min-width: 1000px) {
+    .selector {
+        color: red;
+    }
+}
+
+@media print {
+    .selector {
+        color: purple;
+    }
+}
+```
+
+<MediaQueryDemo />
+
+</div>
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 4 🏋️ 
+
+---
 
 # CSS Basics / Common properties
 
@@ -121,10 +234,10 @@ body {
 All CSS properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 ---
+layout: center
+---
 
-# CSS Basics / Box model
-
-<CodepenEmbed slug-hash="LYJvdbZ" user="sjoerdb" height="400" />
+# 🏋️ Exercise 5 🏋️
 
 ---
 
@@ -149,36 +262,7 @@ All CSS properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 <CodepenEmbed slug-hash="LYgGyNv" user="sjoerdb" height="400" />
 
 ---
+layout: center
+---
 
-# CSS Basics / Media queries
-
-<div class="grid grid-cols-2 gap-4">
-
-```css
-.selector {
-    color: blue;
-}
-
-@media (max-width: 800px) {
-    .selector {
-        color: green;
-    }
-}
-
-@media (min-width: 1000px) {
-    .selector {
-        color: red;
-    }
-}
-
-@media print {
-    .selector {
-        color: purple;
-    }
-}
-```
-
-<MediaQueryDemo />
-
-</div>
-
+# 🏋️ Exercise 6 🏋️

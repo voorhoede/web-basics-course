@@ -126,6 +126,12 @@ layout: center
 All elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ---
+layout: center
+---
+
+# 🏋️ Exercise 1 🏋️
+
+---
 
 # HTML Basics / Forms
 
@@ -190,6 +196,48 @@ All elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ---
 
+# HTML Basics / Accessibility
+
+- Screen readers
+- Keyboard navigation
+- Goes hand in hand with semantics
+
+<div class="grid grid-cols-2 gap-4">
+```html
+<!-- bad -->
+<div>
+  <p>Name</p>
+  <input type="text" name="name" />
+
+  <p>Email</p>
+  <input type="email" name="email" />
+
+  <button>Submit</button>
+</div>
+```
+
+```html
+<!-- good -->
+<form>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" />
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" />
+
+  <button type="submit">Submit</button>
+</form>
+```
+</div>
+
+---
+layout: center
+---
+
+# 🏋️ Exercise 2 🏋️
+
+---
+
 # HTML Basics / Semantics
 
 - HTML elements are used to describe the meaning of the content
@@ -239,37 +287,7 @@ All elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 </div>
 
 ---
+layout: center
+---
 
-# HTML Basics / Accessibility
-
-- Screen readers
-- Keyboard navigation
-- Goes hand in hand with semantics
-
-<div class="grid grid-cols-2 gap-4">
-```html
-<!-- bad -->
-<div>
-  <p>Name</p>
-  <input type="text" name="name" />
-
-  <p>Email</p>
-  <input type="email" name="email" />
-
-  <button>Submit</button>
-</div>
-```
-
-```html
-<!-- good -->
-<form>
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" />
-
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" />
-
-  <button type="submit">Submit</button>
-</form>
-```
-</div>
+# 🏋️ Exercise 3 🏋️
