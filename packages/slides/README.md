@@ -1,4 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Exercises for Web Basics course
 
 To start the slide show:
 
