@@ -39,6 +39,28 @@ sequenceDiagram
 
 ---
 
+# How the web works / HTTP response status codes
+
+- `1xx` - Informational
+- `2xx` - Success
+- `3xx` - Redirection
+- `4xx` - Client error
+- `5xx` - Server error
+
+---
+
+# How the web works / 200
+
+<img src="/images/request.png" :style="{ height: '90%' }" />
+
+---
+
+# How the web works / 404
+
+<img src="/images/failed-request.png" :style="{ height: '90%' }" />
+
+---
+
 # How the web works / HTML - CSS - JS
 
 - Web pages use HTML for content and structure.
@@ -46,9 +68,16 @@ sequenceDiagram
 - JavaScript adds interactivity and dynamic functionality.
 - HTML is the foundation, while CSS and JavaScript enhance the web page.
 - These technologies work together to create dynamic, interactive, and visually appealing web pages.
+
 ---
 
-# How the web works / Server side rendering
+# How the web works / HTML - CSS - JS Demo
+
+<CodepenEmbed slug-hash="abRYKqp" user="sjoerdb" height="400" />
+
+---
+
+# How the web works / Rendering a page
 
 ```mermaid
 graph LR
@@ -61,21 +90,4 @@ F --> D
 G --> D
 E --> D
 D --> B
-```
-
----
-
-# How the web works / Client side rendering
-
-```mermaid
-graph LR
-B[Browser] --> C[Server]
-C --> D[Static web page]
-D --> B
-B --> E[Database]
-B --> F[Server-side script]
-B --> G[Third party service]
-F -->B 
-G -->B 
-E -->B 
 ```
