@@ -4,13 +4,15 @@
   "description": "",
   "main": "./readme.md",
   "scripts": {
-    "format": "prettier --write"
+    "start": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "vite": "^4.3.5",
+    "vite-plugin-list-directory-contents": "^1.4.5"
   },
   "devDependencies": {
     "postcss": "^8.4.21",
