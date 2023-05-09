@@ -13,4 +13,4 @@ This course is designed to teach the basics of web development. It is intended f
 ## Scripts
 
 - `npm run start -w slides` - serves the slides on a local server
-- `npm run start -w exercise-runner` - serves the exercise on a local server
+- `npm run start -w exercises` - serves the exercise on a local server
