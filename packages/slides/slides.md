@@ -91,3 +91,23 @@ src: ./sections/javascript-basics.md
 src: ./sections/tools.md
 ---
 
+---
+
+# Before we go
+
+- What did you learn today?
+- What was the most interesting thing you learned today?
+- What do you want to learn more about?
+
+---
+layout: center
+---
+
+# Questions?
+
+---
+layout: center
+---
+
+# Thank you!
+
