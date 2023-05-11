@@ -28,6 +28,7 @@ The Web, HTML, CSS & JS
 - **Web development tools**: The essential tools for web development such as developer tools, testing and easy hosting.
 - **Conclusion**: The summary and review of the course content and objectives.
 - **Questions**: The time for questions and answers.
+
 ---
 
 # Today / Exercises

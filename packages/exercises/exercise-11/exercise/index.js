@@ -40,7 +40,7 @@ async function handleCurrentLocationClick() {
     alert("Unable to get current location. Please try again later.");
   }
 
-  locationButtonElement.textContent = "Current location";
+  locationButtonElement.textContent = "Zoom to current location";
 }
 
 async function handleMapClick(e) {

@@ -10,6 +10,7 @@ body {
   gap: 16px;
   background-color: #2a2a2a;
   color: #fefefe;
+  /* 1. Add a custom sans-serif font */
 }
 
 @media (min-width: 768px) {
@@ -45,6 +46,8 @@ footer {
   text-align: center;
 }
 
+/* 2. Make the links in the footer white */
+
 section {
   display: grid;
   gap: 16px;
@@ -54,4 +57,12 @@ h1 {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(0.25turn, #007cf0, #ff0080);
   -webkit-background-clip: text;
+  /* 3. Make the main heading larger */
+  /* 4. Align the main heading to the center */
 }
+
+h2 {
+  font-size: 24px;
+}
+
+/* 5. Add responsive styles (@media) to make the headings larger on wider screens */

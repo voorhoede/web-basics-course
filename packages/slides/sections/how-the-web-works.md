@@ -79,15 +79,14 @@ sequenceDiagram
 
 # How the web works / Rendering a page
 
-```mermaid
-graph LR
-B[Browser] --> C[Server]
-C --> D[Dynamic Web Page]
-D --> E[Database]
-D --> F[Server-side script]
-D --> G[Third party service]
-F --> D
-G --> D
-E --> D
-D --> B
-```
+<img src="/images/DOM.webp" :style="{ height: '80%' }" />
+
+Source: https://medium.com/weekly-webtips/understand-dom-cssom-render-tree-layout-and-painting-9f002f43d1aa
+
+---
+
+# How the web works / Rendering a page
+
+<img src="/images/render-tree.avif" :style="{ height: '80%' }" />
+
+Source: https://web.dev/critical-rendering-path-render-tree-construction/

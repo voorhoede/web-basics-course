@@ -15,6 +15,14 @@ layout: center
 
 ---
 
+# HTML Basics / Elements
+
+<img class="my-14" src="/images/html-element.png" />
+
+Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document
+
+---
+
 # HTML Basics / Tree structure
 
 - Browsers use the HTML DOM (Document Object Model) to render the page
@@ -77,30 +85,47 @@ layout: center
 
 ---
 
+# HTML Basics / Attributes
+
+- Provide additional information about HTML elements
+- Always specified in the start tag
+- Usually come in name/value pairs like: src="/image.jpg"
+
+```html
+<img src="/image.jpg" alt="Picture of a cat" />
+```
+
+<img src="http://placekitten.com/200/300" width="150" />
+
+---
+
 # HTML Basics / Examples
 
 <div class="grid grid-cols-2 gap-4">
 ```html
-<!-- Heading -->
+ Heading 
 <h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+etc...
 
-<!-- Paragraph -->
+ Paragraph 
 <p>Paragraph</p>
 
-<!-- Image -->
+ Image 
 <img src="/image.jpg" alt="My Image" />
 
-<!-- Link -->
+ Link 
 <a href="https://google.com">Google</a>
 
-<!-- List -->
+ List 
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
 </ul>
 ```
 ```html
-<!-- Table -->
+ Table 
 <table>
   <thead>
     <tr>
@@ -130,6 +155,16 @@ layout: center
 ---
 
 # 🏋️ Exercise 1 🏋️
+
+- Create a page about yourself
+- Add basic HTML structure: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document
+- It needs to contain the following:
+  - a \<head\> element with nescessary meta tags
+  - a \<body\> element
+  - a \<h1> \element with the title of your page
+  - a \<p> e\lement with some text
+  - a \<ul> \element with a list of your interests 
+  - an \<img>\ element with a picture of a cat
 
 ---
 
@@ -204,7 +239,7 @@ layout: center
 
 <div class="grid grid-cols-2 gap-4">
 ```html
-<!-- bad -->
+ bad 
 <div>
   <p>Name</p>
   <input type="text" name="name" />
@@ -217,7 +252,7 @@ layout: center
 ```
 
 ```html
-<!-- good -->
+ good 
 <form>
   <label for="name">Name</label>
   <input type="text" id="name" name="name" />
@@ -236,6 +271,13 @@ layout: center
 
 # 🏋️ Exercise 2 🏋️
 
+- Add semantic meaning to the elements on the page 
+- Think of the following things:
+  - What is the main heading of the page?
+  - How do we indicate that the input elements are related to each other?
+  - How do we link the label to the input?
+  - How do we submit the form?
+
 ---
 
 # HTML Basics / Semantics
@@ -246,7 +288,7 @@ layout: center
 
 <div class="grid grid-cols-2 gap-4">
 ```html
-<!-- bad -->
+ bad 
 <body>
   <div>
     <p>Site title</p>
@@ -266,7 +308,7 @@ layout: center
 ```
 
 ```html
-<!-- good -->
+ good 
 <body>
   <header>
     <h1>Site title</h1>
@@ -291,3 +333,16 @@ layout: center
 ---
 
 # 🏋️ Exercise 3 🏋️
+
+1. Add required meta tags
+2. Add a title of the webpage
+3. Add a header section, containing the title of the page
+4. Add the main part of the page
+    1. Add a section where the list with the forecast will be rendered
+    2. Add a paragraph with information about the forecast
+5. Add list items with information about each day's weather
+    1. Add a list item for each day
+    2. Add a paragraph with the day's date
+6. Add a footer with a message and a link to the footer
+    1. Add a paragraph with a message
+    2. Add a link to Deltares

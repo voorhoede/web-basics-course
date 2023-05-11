@@ -1,5 +1,5 @@
 /**
- * use document.querySelector to get the elements with joke-button and joke as id
+ * use document.querySelector to get the elements with joke-button and joke as id attribute
  */
 
 const jokes = [

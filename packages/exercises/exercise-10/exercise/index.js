@@ -1,9 +1,9 @@
-mapboxgl.accessToken = "";
+mapboxgl.accessToken = "pk.eyJ1IjoiaW9taWMiLCJhIjoiY2thZ3g5NDJvMGF4eDJzcWI3NnpraTlybCJ9.2NLC1oDwtP6lBWIsAfEu1A";
 
 const mapElement = document.getElementById("map");
 
 /**
- * get the location button element from the DOM and store it in a variable
+ * 1. Get the location button element from the DOM and store it in a variable
  */
 
 const mapConfig = {
@@ -28,10 +28,16 @@ function zoomToCurrentLocation() {
 }
 
 /**
- * create a function that handles the click event on the location button
- * remember: we're dealing with asynchronous code here
+ * 2. Create a function that handles the click event on the location button. Inside the function:
+ *    - change the textContent of the location button to "Loading..."
+ *    - call the zoomToCurrentLocation function
+ *    - change the textContent of the location button back to "Current location"
+ *    - if an error occurs, alert the user with a message
+ *    - change the textContent of the location button back to "Current location"
+ * 
+ * Remember: we're dealing with asynchronous code here
  */
 
 /**
- * add a click event listener to the location button
+ * 3. Add a click event listener to the location button that calls the function you created in step 2
  */

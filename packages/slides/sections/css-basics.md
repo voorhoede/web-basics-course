@@ -180,7 +180,9 @@ source: https://ishadeed.com/article/grid-layout-flexbox-components/
 layout: center
 ---
 
-# 🏋️ Exercise 4 🏋️ 
+# 🏋️ Exercise 4 🏋️
+
+- Add a basic layout to the page using `display: grid` and `gap`
 
 ---
 
@@ -239,6 +241,12 @@ layout: center
 
 # 🏋️ Exercise 5 🏋️
 
+1. Add a custom sans-serif font (`font-family`)
+2. Make the links in the footer white (`color`)
+3. Make the main heading larger (`font-size`)
+4. Align the main heading to the center (`text-align`)
+5. Add responsive styles (`@media`) to make the headings larger on wider screens (`font-size`)
+
 ---
 
 # CSS Basics / Document flow
@@ -262,7 +270,18 @@ layout: center
 <CodepenEmbed slug-hash="LYgGyNv" user="sjoerdb" height="400" />
 
 ---
+
+# CSS Basics / Scroll containers
+
+- `overflow: auto | scroll | hidden`
+
+<CodepenEmbed slug-hash="JjmvVBQ" user="sjoerdb" height="400" />
+
+---
 layout: center
 ---
 
 # 🏋️ Exercise 6 🏋️
+
+- Style the forecast list
+- Use the following selectors: `.forecast-list`, `.forecast-item`, `.forecast-emoji`

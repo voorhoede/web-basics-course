@@ -213,6 +213,8 @@ layout: center
 
 # 🏋️ Exercise 7 🏋️
 
+- Follow the instructions in the exercise file
+
 ---
 
 # Javascript Basics / Events
@@ -244,6 +246,10 @@ layout: center
 
 # 🏋️ Exercise 8 🏋️
 
+- use `document.querySelector` to get the elements with `joke-button` and `joke` as id attribute
+- When the button is clicked, use the getRandomJoke function to get a random joke
+- Replace the textContent of the joke element with the random joke
+
 ---
 
 # Javascript Basics / Inline vs external scripts
@@ -266,6 +272,9 @@ layout: center
 ---
 
 # 🏋️ Exercise 9 🏋️
+
+- In index.html: add a script tag to the bottom of the body with the mapbox script
+- In index.js: Initialize the mapbox map
 
 ---
 
@@ -303,11 +312,26 @@ layout: center
 
 # 🏋️ Exercise 10 🏋️
 
+- Get the location button element from the DOM and store it in a variable
+- Create a function that handles the click event on the location button. Inside the function:
+  - change the textContent of the location button to "Loading..."
+  - call the zoomToCurrentLocation function
+  - change the textContent of the location button back to "Current location"
+  - if an error occurs, alert the user with a message
+  - change the textContent of the location button back to "Current location"
+  - Remember: we're dealing with asynchronous code here
+- Add a click event listener to the location button that calls the function you created in step 2
+
 ---
 layout: center
 ---
 
 # 🏋️ Exercise 11 🏋️
+
+1. Add an click listener on the map (hint: https://docs.mapbox.com/mapbox-gl-js/example/popup-on-click/)
+2. fetch weather data for the coordinates (use the fetchWeatherForLocation function)
+3. display the weather data in the popup (hint: https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup#sethtml)
+4. Bonus: add error handling for when data fetching fails (using try/catch)
 
 ---
 
