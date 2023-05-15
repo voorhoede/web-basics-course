@@ -1,4 +1,4 @@
-mapboxgl.accessToken = "";
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN
 
 /**
  * Get element of the map and assign it to a mapElement variable
