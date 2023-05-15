@@ -12,6 +12,12 @@ layout: center
 - Select HTML elements and change how they look
 - Style and layout web pages
 
+<!--
+    - CSS is a language for styling web pages
+    - is also used for layout
+    - is used to select HTML elements and change how they look
+-->
+
 ---
 
 # CSS Basics / Syntax
@@ -25,6 +31,13 @@ selector {
   property: value;
 }
 ```
+
+<!--
+    - Selector: selects the HTML element(s) you want to style
+    - Property: the style you want to change
+    - Value: the value you want to set for the property
+    - Rule: a combination of a selector and one or more properties
+-->
 
 ---
 

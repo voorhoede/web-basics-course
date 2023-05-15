@@ -24,7 +24,7 @@
 import { ref } from "vue";
 
 const formEl = ref(null);
-const methods = ["POST", "GET", "PUT", "PATCH", "DELETE"];
+const methods = ["POST", "GET", "PUT", "DELETE"];
 
 function handleSubmit(event, method) {
   event.preventDefault();

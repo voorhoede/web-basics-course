@@ -13,6 +13,12 @@ layout: center
 - Founded by Tim Berners-Lee for researchers to share information
 - Informs the browser how to display the content and add semantic meaning to elements
 
+<!-- 
+    - Explain HTML: HyperText Markup Language
+    - Tim Berners-Lee was a researcher and invented the web
+    - A way for researchers to share information.
+-->
+
 ---
 
 # HTML Basics / Elements
@@ -50,6 +56,11 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_
 <img src="/images/html-tree.png" width="250" />
 </div>
 
+<!--
+  - Explain DOM: Document Object Model
+  - Explain tree structure: parent, child, sibling, root 
+-->
+
 ---
 
 # HTML Basics / Syntax
@@ -69,13 +80,40 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_
 
 <img src="/images/syntax.png" width="300" />
 
+<!--
+  - Explain syntax: opening tag, closing tag, self-closing tag
+  - Explain root element: html
+  - Explain head and body
+-->
+
 ---
 
 # HTML Basics / Attributes
 
 - Provide additional information about HTML elements
 - Always specified in the start tag
-- Usually come in name/value pairs like: src="/image.jpg"
+- Usually come in name/value pairs like: `src="/image.jpg"`
+
+```html
+<img src="/image.jpg" alt="Picture of a cat" />
+```
+
+<img src="http://placekitten.com/200/300" width="150" />
+
+<!--
+  - Explain attributes: provide additional information about HTML elements
+  - Explain start tag: <img>
+  - Explain name/value pairs: src="/image.jpg"
+  - Self closing tag: <img />
+-->
+
+---
+
+# HTML Basics / Attributes
+
+- Provide additional information about HTML elements
+- Always specified in the start tag
+- Usually come in name/value pairs like: `src="/image.jpg"`
 
 ```html
 <img src="/image.jpg" alt="Picture of a cat" />
@@ -85,47 +123,33 @@ Source: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_
 
 ---
 
-# HTML Basics / Attributes
-
-- Provide additional information about HTML elements
-- Always specified in the start tag
-- Usually come in name/value pairs like: src="/image.jpg"
-
-```html
-<img src="/image.jpg" alt="Picture of a cat" />
-```
-
-<img src="http://placekitten.com/200/300" width="150" />
-
----
-
 # HTML Basics / Examples
 
 <div class="grid grid-cols-2 gap-4">
 ```html
- Heading 
+<!-- Heading -->
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 etc...
 
- Paragraph 
+<!-- Paragraph --> 
 <p>Paragraph</p>
 
- Image 
+<!-- Image --> 
 <img src="/image.jpg" alt="My Image" />
 
- Link 
+<!-- Link --> 
 <a href="https://google.com">Google</a>
 
- List 
+<!-- List --> 
 <ul>
   <li>Item 1</li>
   <li>Item 2</li>
 </ul>
 ```
 ```html
- Table 
+<!-- Table --> 
 <table>
   <thead>
     <tr>
@@ -229,13 +253,16 @@ layout: center
 </div>
 </div>
 
+<!-- 
+  - Refer back to HTTP request methods slides
+-->
+
 ---
 
 # HTML Basics / Accessibility
 
 - Screen readers
 - Keyboard navigation
-- Goes hand in hand with semantics
 
 <div class="grid grid-cols-2 gap-4">
 ```html
@@ -265,23 +292,17 @@ layout: center
 ```
 </div>
 
+<!--
+  - Explain accessibility: screen readers, keyboard navigation
+-->
+
 ---
 layout: center
 ---
 
-# 🏋️ Exercise 2 🏋️
-
-- Add semantic meaning to the elements on the page 
-- Think of the following things:
-  - What is the main heading of the page?
-  - How do we indicate that the input elements are related to each other?
-  - How do we link the label to the input?
-  - How do we submit the form?
-
----
-
 # HTML Basics / Semantics
 
+- Goes hand in hand with accessibility
 - HTML elements are used to describe the meaning of the content
 - Accessibility
 - SEO
@@ -327,6 +348,22 @@ layout: center
 </body>
 ```
 </div>
+
+<!--
+  - Explain semantics: meaning of the content
+  - Explain accessibility: screen readers, keyboard navigation
+-->
+
+---
+
+# 🏋️ Exercise 2 🏋️
+
+- Add semantic meaning to the elements on the page 
+- Think of the following things:
+  - What is the main heading of the page?
+  - How do we indicate that the input elements are related to each other?
+  - How do we link the label to the input?
+  - How do we submit the form?
 
 ---
 layout: center

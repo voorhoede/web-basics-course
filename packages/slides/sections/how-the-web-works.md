@@ -12,6 +12,22 @@ layout: center
 - Server
 - Protocols
 
+<!--
+    - Client: Computer that requests services
+        - Browser
+        - Mobile app
+        - Desktop app
+    - Server: Computer that provides services
+        - Web server
+        - Database server
+        - Application server
+    - Protocols: Rules for communication
+        - HTTP
+        - HTTPS
+        - IP
+        - WS, WSS
+-->
+
 ---
 
 # How the web works / HTTP request
@@ -25,6 +41,12 @@ sequenceDiagram
     C->>C: Display website content based on response
 ```
 
+<!--
+    - Client requests a resource from the server
+    - Server responds with the resource
+    - Client displays the resource
+-->
+
 --- 
 
 # How the web works / Request methods
@@ -33,9 +55,16 @@ sequenceDiagram
 - `POST` - Create data
 - `PUT` - Update data
 - `DELETE` - Delete data
-- `OPTIONS` - Check available methods etc., executed automatically by the browser
 
 <FormDemo />
+
+<!--
+    - Explain methods
+    - Explain devtools: network tab
+    - Headers are used to send additional information and instructions
+    - POST, PUT, DELETE are best used for sensitive data
+    - GET is used for retrieving data and not safe for sensitive data
+-->
 
 ---
 
@@ -47,6 +76,12 @@ sequenceDiagram
 - `4xx` - Client error
 - `5xx` - Server error
 
+<!--
+    - EXAMPLES ON NEXT SLIDES: 200, 404
+    - Explain status codes
+    - 200 is the most common status code
+    - 404 is the most common error status code
+-->
 ---
 
 # How the web works / 200
@@ -90,3 +125,12 @@ Source: https://medium.com/weekly-webtips/understand-dom-cssom-render-tree-layou
 <img src="/images/render-tree.avif" :style="{ height: '80%' }" />
 
 Source: https://web.dev/critical-rendering-path-render-tree-construction/
+
+<!-- 
+    - Explain DOM: Document Object Model
+    - Explain CSSOM: CSS Object Model
+    - Explain Render Tree: DOM + CSSOM
+    - Explain Layout: Calculate the size and position of each element
+    - Explain Paint: Draw the pixels to the screen
+-->
+

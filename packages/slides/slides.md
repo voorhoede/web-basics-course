@@ -11,27 +11,57 @@ drawings:
 css: windicss
 ---
 
-# Web Basics 
+# ******Web Basics******
 
 The Web, HTML, CSS & JS
 
 ---
+layout: center
+---
 
-# Today / Topics
+# ******About me******
+
+<!--
+  - Sjoerd Beentjes
+  - Castricum
+  - 27 years old
+  - Front-end developer & Tech lead at De Voorhoede
+-->
+
+---
+
+# ******About you******
+
+<!--
+  - Name
+  - What do you do?
+  - What do expect from today?
+-->
+
+---
+
+# Today / ******Topics******
 
 - **Introduction**: The purpose, objectives, topics, and outcomes of the course.
 - **How the web works**: The basic of web communication and technologies.
 - **HTML basics**: The syntax, structure, elements, attributes, and validation of HTML documents.
-- **Lunch break**: The time for lunch. 
 - **CSS basics**: The syntax, selectors, structure.
 - **JavaScript basics**: The syntax, structure, types, and package management.
-- **Web development tools**: The essential tools for web development such as developer tools, testing and easy hosting.
+- **Tools**: The essential tools for web development such as developer tools, testing and easy hosting.
 - **Conclusion**: The summary and review of the course content and objectives.
 - **Questions**: The time for questions and answers.
 
+<!--
+
+- Read out the topics
+- Ask if there are any questions
+- If anyone has any questions throughout the slides, please ask them
+
+-->
+
 ---
 
-# Today / Exercises
+# Today / ******Exercises******
 
 1. **HTML: My first web page:**: Set up an HTML document.
 1. **HTML: Markup**: Fixing the markup of an HTML form.
@@ -45,25 +75,41 @@ The Web, HTML, CSS & JS
 1. **JS: Browser APIs**: Get current location using browser features.
 1. **JS: Interactivity**: Add interactivity to the map. 
 
+<!--
+  - HTML: we'll start out with HTML to set up the structure of the page
+  - CSS: then we'll add some CSS to make it look nice
+  - JS: and finally we'll add some JS to make it interactive
+  - Split up in 11 exercises because small bites are easier to digest
+  - Some will build on previous ones
+  - Some will be isolated challenges
+-->
+
 ---
 layout: center
 ---
 
-# Today / Goal
+# Today / ******Goal******
 
 ## WeatherMap: an application that shows the weather for your current location and an interactive map.
 
+[Preview](localhost:5173)
+
+<!--
+http://localhost:5173
+-->
+
 ---
 layout: center
 ---
 
-# Question
+# ******Question******
 
 ## Who is familiar with using HTML/CSS/JS?
 
+
 ---
 
-# Before we start / prerequisites
+# Before we start / ******prerequisites******
 
 - [Node.js](https://nodejs.org/en/) version 16 or higher
 - [Browser](https://www.google.com/chrome/) or any other browser that has developer tools
@@ -93,7 +139,7 @@ src: ./sections/tools.md
 
 ---
 
-# Before we go
+# ******Before we go******
 
 - What did you learn today?
 - What was the most interesting thing you learned today?
@@ -103,11 +149,15 @@ src: ./sections/tools.md
 layout: center
 ---
 
-# Questions?
+# ******Questions?******
 
 ---
 layout: center
 ---
 
-# Thank you!
+# ******Thank you!******
 
+## Feel free to contact me
+
+- sjoerd@voorhoede.nl
+- post@voorhoede.nl
