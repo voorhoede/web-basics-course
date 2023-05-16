@@ -188,7 +188,8 @@ layout: center
   - a \<h1> \element with the title of your page
   - a \<p> e\lement with some text
   - a \<ul> \element with a list of your interests 
-  - an \<img>\ element with a picture of a cat
+  - a \<img>\ element with a picture of a cat
+  - a \<a>\ element linking to your favorite website
 
 ---
 
@@ -266,7 +267,7 @@ layout: center
 
 <div class="grid grid-cols-2 gap-4">
 ```html
- bad 
+<!-- bad  -->
 <div>
   <p>Name</p>
   <input type="text" name="name" />
@@ -279,13 +280,13 @@ layout: center
 ```
 
 ```html
- good 
+<!-- good  -->
 <form>
   <label for="name">Name</label>
-  <input type="text" id="name" name="name" />
+  <input type="text" id="name" name="name" required />
 
   <label for="email">Email</label>
-  <input type="email" id="email" name="email" />
+  <input type="email" id="email" name="email" required />
 
   <button type="submit">Submit</button>
 </form>
@@ -309,7 +310,7 @@ layout: center
 
 <div class="grid grid-cols-2 gap-4">
 ```html
- bad 
+<!-- bad  -->
 <body>
   <div>
     <p>Site title</p>
@@ -329,7 +330,7 @@ layout: center
 ```
 
 ```html
- good 
+<!-- good  -->
 <body>
   <header>
     <h1>Site title</h1>
@@ -352,6 +353,7 @@ layout: center
 <!--
   - Explain semantics: meaning of the content
   - Explain accessibility: screen readers, keyboard navigation
+  - Talk about landmarks
 -->
 
 ---

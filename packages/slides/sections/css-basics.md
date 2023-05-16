@@ -11,6 +11,7 @@ layout: center
 - Cascading Style Sheets
 - Select HTML elements and change how they look
 - Style and layout web pages
+- [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <!--
     - CSS is a language for styling web pages
@@ -37,6 +38,8 @@ selector {
     - Property: the style you want to change
     - Value: the value you want to set for the property
     - Rule: a combination of a selector and one or more properties
+    - Learning CSS is like learning words in a new language
+    - You have to repeat them a lot to remember them
 -->
 
 ---
@@ -59,50 +62,41 @@ body {
 
 --- 
 
-# CSS Basics / Cascading
+# CSS Basics / Cascade & Specificity
 
-- Specificity (inline > id > class > tag)
+- Combination of specificity and order
 - Order (last one wins)
+- Specificity (inline > id > class > tag)
+
+<div class="grid grid-cols-2 gap-4">
 
 ```html
 <body>
-    <h1 class="heading">Heading 1</h1>
+    <h1 class="heading" id="heading-1">Heading 1</h1>
 </body>
 ```
 
-```css {all|1-3|5-8}
+```css {all|1-3|5-12}
 body {
     color: red;
 }
 
-.heading {
+#heading-1 {
     color: blue;
 }
+
+.heading {
+    color: red;
+}
 ```
+
+</div>
 
 <img src="/images/cascade.png" width="200" />
 
----
-
-# CSS Basics / Specificity
-
-- Order: inline > id > class > tag
-
-```html
-<body>
-    <h1 class="heading">Heading 1</h1>
-</body>
-```
-
-```css {all|1-3|5-8}
-h1 {
-    color: red;
-}
-
-.heading {
-    color: blue;
-}
-```
+<!--
+    - Click through slide for explanation
+-->
 
 --- 
 
@@ -118,7 +112,7 @@ h1 {
         </style>
     </head>
     <body>
-        <h1>Heading 1</h1>
+        <h1 style="color:blue;">Heading 1</h1>
     </body>
 </html>
 ```
@@ -151,9 +145,26 @@ source: https://ishadeed.com/article/grid-layout-flexbox-components/
 
 ---
 
+# CSS Basics / Units
+
+- `px`: pixels
+- `em`: relative to the font-size of the element
+- `rem`: relative to the font-size of the root element
+- `%`: relative to the parent element
+- `vw`: relative to 1% of the width of the viewport
+- `vh`: relative to 1% of the height of the viewport
+
+---
+
 # CSS Basics / Box model
 
 <CodepenEmbed slug-hash="LYJvdbZ" user="sjoerdb" height="400" />
+
+<!--
+    - Shoe box comparison
+    - Explain padding, margin, border
+    - Show devtools
+-->
 
 ---
 

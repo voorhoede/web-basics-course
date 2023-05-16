@@ -56,6 +56,17 @@ age = 31;
 name = 'Jane Doe';
 ```
 
+<!--
+  - Explain variables
+  - const vs let
+  - const cannot be reassigned
+  - let can be reassigned
+  - var is the old way of declaring variables
+  - var can be reassigned
+  - var is function scoped, let and const are block scoped, but not going to bore you with that
+  - Mention error when trying to reassign const
+-->
+
 ---
 
 # Javascript Basics / Data types
@@ -67,6 +78,10 @@ name = 'Jane Doe';
 - `undefined` - a top-level property whose value is undefined
 - `object` - a collection of data (key/value pairs)
 - `array` - a type of object used to store lists of data 
+
+<!--
+  - Does anybody not recognize one of these?
+-->
 
 ---
 
@@ -92,6 +107,12 @@ console.log(person.name);
 console.log(person.dimensions.height);
 // 180
 ```
+
+<!--
+  - Explain objects
+  - Mention nesting
+  - Mention dot notation
+-->
 
 ---
 
@@ -122,6 +143,14 @@ const greet = ({ name, age }) => `Hello ${name}, you are ${age} years old`;
 
 greet({ name: 'John', age: 30 });
 ```
+
+<!--
+  - Functions
+  - Parameters
+  - Return
+  - Arrow functions
+  - Object destructuring
+-->
 
 ---
 

@@ -29,6 +29,8 @@ layout: center
 -->
 
 ---
+layout: center
+---
 
 # ******About you******
 
@@ -92,7 +94,7 @@ layout: center
 
 ## WeatherMap: an application that shows the weather for your current location and an interactive map.
 
-[Preview](localhost:5173)
+[Preview](http://localhost:5173)
 
 <!--
 http://localhost:5173
@@ -136,6 +138,33 @@ src: ./sections/javascript-basics.md
 ---
 src: ./sections/tools.md
 ---
+
+#
+
+---
+
+# Final exercise / The plan
+
+- Work in pairs
+- Create a plan for a webshop you want to build
+- You’re going to build:
+  - The homepage 
+  - A product page
+- 10 minutes for planning
+    - HTML - What’s going to be on the page?
+    - CSS - How do you want it to look?
+    - JS - What interactivity do you want to add?
+- 45 minutes for building
+
+---
+
+# Final exercise / Show your work
+
+- Present your work to the group
+- 5 minutes per group
+- What did you build?
+- What did you learn?
+- What was the most challenging part?
 
 ---
 
