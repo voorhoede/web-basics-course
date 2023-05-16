@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "exercises:start": "npm run start -w exercise-runner",
+    "exercises:start": "npm run start -w exercises",
     "slides:start": "npm run start -w slides"
   },
   "author": "",
